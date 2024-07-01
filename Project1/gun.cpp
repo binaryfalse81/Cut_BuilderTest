@@ -31,6 +31,10 @@ public:
 
         Cut build()
         {
+            if (style.size() <= 0) cout << "style 이 Setting 되어야 합니다." << endl;
+            if (front <= 0) cout << "front 이 Setting 되어야 합니다." << endl;
+            if (back <= 0) cout << "back 이 Setting 되어야 합니다." << endl;
+            if (side <= 0) cout << "side 이 Setting 되어야 합니다." << endl;
             return Cut{ style, front, back, side };
         }
 
