@@ -68,8 +68,8 @@ int main()
 {
     Cut cut = Cut::Builder()
         .setStyle("bts")
-        .setBack(1)
-        .setFront(2)
+        .setFront(1)
+        .setBack(2)
         .setSide(3)
         .build();
 
